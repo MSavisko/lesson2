@@ -69,11 +69,13 @@ int main(int argc, char * argv[]) {
     NSString *stringExample2 = [NSString new];
     NSString *stringExample3 = @"Example 3";
     NSString *stringExample4 = [[NSString alloc]initWithFormat:@"Example4"];
-    NSString *stringExample5 = [[NSString alloc]initWithString:@""];
+    NSString *stringExample5 = [[NSString alloc]initWithString:stringExample4];
     
     //Crash Example #1, because we try to access the index of array, that is not exist
     NSArray *array = @[@1, @2]; NSNumber *number = [array objectAtIndex:666];
     
+    //Crash Example #2, short code crash
+    c=c/0;
     
 	return 0;
 }
