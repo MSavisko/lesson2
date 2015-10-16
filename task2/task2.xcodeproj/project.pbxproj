@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6D7AF2CC1BCD633E0074B523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7AF2CB1BCD633E0074B523 /* main.m */; };
+		890FF91B1BCEEC830059B866 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 890FF91A1BCEEC830059B866 /* Card.m */; settings = {ASSET_TAGS = (); }; };
+		890FF91E1BCEECC40059B866 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 890FF91D1BCEECC40059B866 /* PlayingCard.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D7AF2C71BCD633E0074B523 /* task2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7AF2CB1BCD633E0074B523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D7AF2DB1BCD633E0074B523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890FF9191BCEEC830059B866 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		890FF91A1BCEEC830059B866 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		890FF91C1BCEECC40059B866 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		890FF91D1BCEECC40059B866 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				6D7AF2CB1BCD633E0074B523 /* main.m */,
+				890FF9191BCEEC830059B866 /* Card.h */,
+				890FF91A1BCEEC830059B866 /* Card.m */,
+				890FF91C1BCEECC40059B866 /* PlayingCard.h */,
+				890FF91D1BCEECC40059B866 /* PlayingCard.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890FF91E1BCEECC40059B866 /* PlayingCard.m in Sources */,
 				6D7AF2CC1BCD633E0074B523 /* main.m in Sources */,
+				890FF91B1BCEEC830059B866 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 				6D7AF2E01BCD633E0074B523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
